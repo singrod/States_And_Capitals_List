@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>States and Capitals</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<script src="StatesAndCapitalsList.js"></script>
+	<link rel="stylesheet" type="text/css" href="StatesAndCapitalsList.css"/>
+	<meta charset="UTF-8">
+</head>
+<body ng-app="statesApp">
+	<div ng-controller="statesCtrl">
+		<p>States/Capitals</p>
+		<ul ng-repeat="state in states">
+			<li class="myStates">	
+				{{ state.state }} 
+				<ul>
+					<li class="myCapital"> {{ state.capital }}</li>
+				</ul>
+			</li>
+		</ol>
+	</div>
+</body>
+</html>

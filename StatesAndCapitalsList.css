@@ -1,0 +1,21 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.myStates {
+	font-size: 18px;
+	font-family: Georgia, Serif;
+	font-weight: bold;
+}
+.myCapital {
+	font-size: 12px;
+	font-family: Georgia, Serif;
+	color: red;
+}
+p {
+	font-size: 24px;
+	font-family: Georgia, Serif;
+	font-weight: bold;
+	padding-left: 20px;
+	color: blue;
+}
